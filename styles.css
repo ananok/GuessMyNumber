@@ -1,0 +1,162 @@
+@import url('https://fonts.googleapis.com/css2?family=Nova+Cut&display=swap');
+
+*{
+    box-sizing: border-box;
+    font-family: 'Nova Cut', cursive;
+}
+
+body{
+    width:100%;
+    min-height:100vh;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    align-items: center;
+    padding:20px;
+    font-family: 'Nova Cut', cursive;
+    background: #0e63d8;
+    font-weight: bolder;
+}
+
+header{
+    margin-top:20px;
+    width:80%;
+    height:100%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    
+    
+}
+
+h1{
+    color:rgb(255, 251, 251);
+    font-size:27px;
+    margin-top:50px;
+    margin-bottom:30px;
+    line-height: 50px;
+    word-spacing: 3.5px;
+}
+.again{
+    display: inline-block;
+    width:145px;
+    height:30px;
+    padding: 0;
+    font-size: 15px;
+    background-color: rgb(255, 251, 251);;
+    border:none;
+    border-radius: 15px;
+    font-weight: bolder;
+    color: #0e63d8;
+
+}
+
+section{
+    padding: 40px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width:80%;
+    height:100%;
+    background: rgb(250, 245, 245);
+    border-radius: 15px;
+}
+
+
+header h4{
+    width:145px;
+    height:30px;
+    padding:8px;
+    text-align: center;
+    font-size: 15px;
+    background-color: white;
+    border-radius: 15px;
+}
+
+.my-number{
+    display: flex;
+    width:100%;
+    height:50px;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.line{
+    height:10px;
+    width:45%;
+    background-color: black;
+}
+
+.number{
+    height:40px;
+    width:40px;
+}
+
+.my-number h2{
+    width:100%;
+    font-size: 40px;
+    color:rgb(0, 0, 0);
+}
+
+.choose-box{
+    width: 100%;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+}
+  
+.choose-box div{
+    width:100%;
+    display: flex;
+    justify-content: center;
+}
+
+.answers{
+    align-items: center;
+    width:100%;
+    display:inline-block;
+    display: flex;
+    flex-direction: column;
+    gap:5px;
+}
+
+input{
+    border: solid 1px black;
+    margin-bottom:5px;
+    text-align:center;
+    height:40px;
+    font-weight: bolder;
+    font-size:18px;
+    width:195px;
+}
+
+.check{
+    width: 196px;
+    font-size: 20px;
+    height:40px;
+    background-color: #0e63d8;
+    border: none;
+    border-radius: 3px;
+    color: white;
+}
+
+.about{
+    font-size:22px;
+    color:blue
+}
+
+
+@media  screen and (min-width:1200px) {
+    section{
+        width:40%;
+    }
+    header{
+        width:40%;
+    }
+
+
+}
